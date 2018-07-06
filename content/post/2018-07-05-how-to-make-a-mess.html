@@ -1,0 +1,20 @@
+---
+title: How to make a mess
+author: ~
+date: '2018-07-05'
+slug: how-to-make-a-mess
+categories: ["tutorial"]
+tags: ["mess"]
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+<p>We’re going to make a histogram using ggplot and the iris dataset</p>
+<pre class="r"><code>library(ggplot2)
+ggplot2::ggplot(iris, aes(x = Sepal.Length)) +
+  geom_histogram()</code></pre>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="/post/2018-07-05-how-to-make-a-mess_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>

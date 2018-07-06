@@ -1,0 +1,19 @@
+---
+title: How to make a mess
+author: ~
+date: '2018-07-05'
+slug: how-to-make-a-mess
+categories: ["tutorial"]
+tags: ["mess"]
+header:
+  caption: ''
+  image: ''
+---
+
+We're going to make a histogram using ggplot and the iris dataset
+
+```{r}
+library(ggplot2)
+ggplot2::ggplot(iris, aes(x = Sepal.Length)) +
+  geom_histogram()
+```
